@@ -1,4 +1,4 @@
-# Invitación de graduación · Joselyn Ortiz
+# Invitación de graduación · Joselyn Ortiz Saucedo
 
 Página estática adaptable a celular, con foto, botón de apertura y confeti, cuenta regresiva, ubicación en Google Maps, descarga de calendario y botón para compartir el enlace una vez publicada.
 

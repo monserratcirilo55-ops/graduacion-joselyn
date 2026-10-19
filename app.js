@@ -64,7 +64,7 @@ document.getElementById('share').addEventListener('click', async () => {
   if (!/^https?:$/.test(location.protocol) || ['localhost','127.0.0.1'].includes(location.hostname)) {
     feedback.textContent = 'Cuando la invitación esté publicada podrás compartir su enlace desde aquí.'; return;
   }
-  const data = {title:'Graduación de Joselyn Ortiz',text:'¡Te invito a celebrar mi graduación! 7 de noviembre de 2026, 3:00 p. m.',url:location.href.split('#')[0]};
+  const data = {title:'Graduación de Joselyn Ortiz Saucedo',text:'¡Te invito a celebrar mi graduación! 7 de noviembre de 2026, 3:00 p. m.',url:location.href.split('#')[0]};
   try {
     if(navigator.share) { await navigator.share(data); feedback.textContent=''; }
     else { await navigator.clipboard.writeText(data.url); feedback.textContent='¡Enlace copiado! Ya puedes enviarlo a tus invitados.'; }
