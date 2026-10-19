@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Joselyn Ortiz//Graduacion//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:joselyn-ortiz-graduacion-20261107
+DTSTAMP:20261019T180000Z
+DTSTART:20261107T210000Z
+SUMMARY:Comida de graduación de Joselyn Ortiz
+DESCRIPTION:¡Celebremos juntos mi graduación universitaria! Ubicación: https://maps.app.goo.gl/SzRG8zwcvst9Rer5A
+LOCATION:Casa de Joselyn\, Barrio Tenería\, Jocotitlán
+URL:https://maps.app.goo.gl/SzRG8zwcvst9Rer5A
+END:VEVENT
+END:VCALENDAR
